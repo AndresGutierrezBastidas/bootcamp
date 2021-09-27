@@ -5,7 +5,7 @@ const App = () => {
   const course = 'Half Stack application development'
   const parts = [
     {
-      name: 'Fundamentals of React',
+      name: 'Fundamentals of React.',
       exercises: 10
     },
     {
