@@ -43,7 +43,7 @@ const App = () => {
     const Psum = parts.map(part => sum = sum+part.exercises)
     return (
       <div>
-        <p>Number of exercises {sum}</p>
+        <p>Number of exercises :  {sum}</p>
       </div>
     );
   }
