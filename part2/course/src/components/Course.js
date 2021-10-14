@@ -3,7 +3,9 @@ import Content from "./Content";
 
 const Course = ({course}) => {
     return (
-        <Content key = {course.id} course = {course}/>
+        <div>
+            {course.map(curso => <Content key = {curso.id} course = {curso}/>)}
+        </div>
     )
 }
 
